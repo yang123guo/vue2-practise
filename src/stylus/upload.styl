@@ -1,0 +1,204 @@
+
+.upload_wrap
+    width 100%
+    height 100%  
+
+.upload_clear
+    margin 10px 6px
+    font-size 12px
+    width 40px
+    height 20px
+    border-radius 4px
+    line-height:19px
+    color $light_blue
+    b-r(4px)
+    border 1px solid $light_blue
+    
+.upload_title
+    display block
+    width 100%
+    height 40px
+    font-size 18px
+    text-align center
+    line-height 40px
+    color $3
+    
+
+.upload_page
+    padding 46px 20px 10px
+    background-color $f
+    
+    li.border
+        font-size 12px
+        height 32px
+        line-height 32px
+        width 100%
+        margin-top 15px
+        position relative
+        b-r(4px)
+        set-border-color($borCorEF)
+        
+        .upload_info
+            color: $infoCor
+            width: 100px
+            text-indent: 12px
+            
+            &:before
+                content ''
+                height: 12px
+                width: 1px
+                border-right: 1px solid #ebebeb
+                position: absolute
+                top: 10px
+                left: 80px
+                
+        .upload_select    
+            color: $textCor
+            border: none
+            padding-right 16px
+            
+        i.down_triangle
+            top 45%
+            border-left 4px solid transparent
+            border-right 4px solid transparent
+            border-top 4px solid #0086d3
+            position absolute
+            right 6px
+            
+        .upload_text
+            border none
+            
+    .upload_description
+        position relative
+        font-size 12px
+        line-height 32px
+        width 100%
+        margin-top 20px
+        height auto!important
+        b-r(4px)
+        
+        &.border
+            set-border-color($borCorEF)
+        
+        .upload_description_title
+            font-weight: 400
+            color: #666
+            height: 32px
+            line-height: 32px
+            padding-left: 10px
+            font-size: 12px
+            width: 100%
+            
+            &.border
+                set-border-color($borCorEF)    
+            
+        textarea
+            display: block
+            padding: 6px 0 0 10px
+            width: 100%
+            height: 100px
+            overflow: hidden
+            border: none
+            line-height: 20px
+            outline none
+            resize none
+            
+    .remainCount
+        height 45px
+        text-align right 
+        line-height 30px
+        width 100%
+        padding 5px 5px 10px
+        color $borCorEF
+        
+        .redCor
+            color red
+            
+    .upload_attachment
+        background #fff
+        box-sizing border-box
+        margin-bottom 15px
+        b-r(4px)
+        
+
+                
+        
+        .attachment_title
+            display block
+            width 100%
+            height 32px
+            font-size 12px
+            line-height 32px
+            padding-left 10px
+            
+    .border
+        set-border-color($borCorEF) 
+                       
+        .attachment_list
+             padding 14px 14px 5px
+             
+        .weui_uploader_input_wrp
+            height 64px
+            width 64px
+            
+    button
+        margin 40px 0 20px
+        
+.img_thumbnail 
+    float left
+    position relative
+    width 64px
+    height 64px
+    padding 1px
+    border 1px solid #D9D9D9
+    margin-right 9px
+    margin-bottom 9px
+    
+    .img_wrap
+        display -webkit-box
+        -webkit-box-pack center
+        -webkit-box-align center
+        -webkit-box-orient vertical
+        width 60px
+        height 60px
+        position relative
+        
+        img 
+            max-height 100%
+        
+    .img_thumbnail_mask
+        width 100%
+        height 100%
+        -webkit-transition height 1s
+        transition height 1s
+        position absolute
+        top 0
+        left 0
+        background-color rgba(0,0,0,.6)
+    
+    .img_remove
+        position absolute
+        background #EF4628
+        height 20px
+        width 20px
+        border-radius 50%
+        font-size 13px
+        right -5px
+        top -10px
+        line-height 18px
+        z-index 3
+        color #fff
+        font-weight 400
+        text-align center
+
+.uploadInput 
+    position absolute
+    display block
+    height 64px
+    width 64px
+    top 0
+    left 0
+    overflow hidden
+    z-index 3
+    opacity 0
+    

@@ -1,0 +1,164 @@
+.collect_title
+    display block
+    width 100%
+    height 40px
+    font-size 18px
+    text-align center
+    line-height 40px
+    color $3
+
+.collect_status 
+    margin 10px 6px
+    width 40px
+    height 20px
+    font-size 12px
+    border-radius 4px
+    line-height:19px
+    color $light_blue
+    b-r(4px)
+    border 1px solid $light_blue
+
+.collection_page
+    padding 46px 0 20px
+    background-color $f
+    height 100%
+    width 100%
+    position relative
+    
+
+    .listNull
+        background-color $f
+        width 100%
+        position fixed
+        top 0
+        left 0
+        bottom 0
+        z-index 4
+        
+        img
+            display block
+        
+        .goto_home
+            background-color $light_blue
+            border-radius 4px
+            line-height 30px
+            width 100px
+            padding 2px 5px
+            margin 15px auto
+            font-size 12px 
+            text-align center 
+                      
+           .goto_homeColor
+               color $f
+    
+    .collect_check
+        color $light_blue
+        border-radius 0
+        width auto
+        height auto
+        border none
+        background 0 0
+        box-sizing border-box
+        padding 0
+        -webkit-appearance none
+        outline 0
+        
+        &:after
+            font-family "iconfont"
+            font-style normal
+            font-weight normal
+            speak none
+            display inline-block
+            vertical-align middle
+            text-decoration inherit
+            display inline-block
+            content "\e6b1"
+            font-size 22px
+            
+    .checked
+        &:after
+            content "\e671"
+            color $light_blue
+
+.collect_wrap
+    overflow hidden
+
+    .collect_item
+        padding 10px
+        background-color $f
+        
+    .border-bottom   
+        set-border-color(#f0f0f0)
+        
+        .collect_check_list
+            width 30px
+            text-align center
+            padding-top 20px
+        
+        .collect_content_list
+            figure
+                width 60px
+                height 60px
+                padding 2px
+                margin-left 10px
+                margin-right 10px
+                
+                img 
+                    height 100%
+                    width 100%
+                    
+            .collect_text_list
+                position relative
+                
+                .collect_text
+                    padding-top 4px
+                    font-size 14px
+                    line-height 18px
+                    text-align left
+                    color $3
+                    overflow  hidden
+                    text-overflow ellipsis
+                    display -webkit-box
+                    -webkit-line-clamp 2
+                    -webkit-box-orient vertical
+                    
+                p.collect_info
+                    position absolute
+                    color $c8
+                    text-align right
+                    bottom: 0px
+                    right: 10px
+                    
+                    .collect_origin
+                        margin-right 6px
+                        
+.collect_allEdit 
+    position fixed
+    bottom 0
+    left 0
+    z-index $zIndexCollectDelete
+    width 100%
+    padding 6px 14px
+    box-sizing border-box 
+    background-color $f  
+    
+    .collect_all 
+        line-height 36px
+        
+        .collect_allCheck
+            margin-left 6px      
+    
+    .collect_deleteBtn
+        a
+            padding 0 20px
+            line-height 36px
+            
+            &.weui_btn_delete
+                background-color $light_blue 
+            
+        
+            
+        
+                 
+        
+

@@ -1,0 +1,69 @@
+{
+    "subscribe" : [
+        {   
+            "avatar" : "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+            "name" : "新闻中心",
+            "abstract" : "公司内部新闻",
+            "classification" : 1,
+            "status" : 0,
+            "date" : "2017-02-12 23:09:00"
+        },
+        {   
+            "avatar" : "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+            "name" : "图片速递",
+            "abstract" : "公司图片类新闻",
+            "classification" : 2,
+            "status" : 0,
+            "date" : "2017-02-12 23:09:00"
+        },
+        {   
+            "avatar" : "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+            "name" : "行业动态",
+            "abstract" : "行业内最新动态",
+            "classification" : 3,
+            "status" : 0,
+            "date" : "2017-02-12 23:09:00"
+        },
+        {   
+            "avatar" : "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+            "name" : "保密平台",
+            "abstract" : "保密信息",
+            "classification" : 4,
+            "status" : 1,
+            "date" : "2017-02-12 23:09:00"
+        },
+        {   
+            "avatar" : "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+            "name" : "贸易风采",
+            "abstract" : "公司发布的通知公告",
+            "classification" : 5,
+            "status" : 1,
+            "date" : "2017-02-12 23:09:00"
+        },
+        {   
+            "avatar" : "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+            "name" : "通知公告",
+            "abstract" : "人才交流沟通平台",
+            "classification" : 6,
+            "status" : 2,
+            "date" : "2017-02-12 23:09:00"
+        },
+        {   
+            "avatar" : "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+            "name" : "综合服务",
+            "abstract" : "综合服务",
+            "classification" : 7,
+            "status" : 2,
+            "date" : "2017-02-12 23:09:00"
+        },
+        {   
+            "avatar" : "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+            "name" : "人力专栏",
+            "abstract" : "企业内部刊物",
+            "classification" : 8,
+            "status" : 2,
+            "date" : "2017-02-12 23:09:00"
+        },
+        
+    ]  
+}

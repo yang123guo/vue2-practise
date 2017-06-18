@@ -1,0 +1,121 @@
+.aside
+    position: fixed
+    top: 0
+    bottom: 0
+    z-index: 1049
+    overflow: auto
+    background: #fff
+    &.left
+        left: 0
+        right: auto
+    .aside-dialog
+        .aside-header
+            border-bottom: 1px solid #e5e5e5
+            min-height: 16.43px
+            padding: 6px 15px
+            background: #337ab7
+            color: #fff
+            .close
+                margin-right: -8px
+                padding: 4px 8px
+                color: #fff
+                font-size: 25px
+                opacity: .8
+        .aside-footer
+            padding: 15px
+            text-align: right
+            border-top: 1px solid #e5e5e5
+            .btn-group
+                .btn
+                    & + .btn
+                        margin-left: -1px
+            .btn-block
+                & + .btn-block
+                    margin-left: 0
+            .btn
+                & + .btn
+                    margin-left: 5px
+                    margin-bottom: 0
+        .aside-body
+            position: relative
+            padding: 15px
+    &.right
+        left: auto
+        right: 0
+        right: 0
+        left: auto
+
+.slideleft-enter
+    animation: slideleft-in .3s
+
+100%
+    transform: translateX(0)
+    opacity: 1
+    transform: translateX(-100%)
+    opacity: 0
+    transform: translateX(0)
+    opacity: 1
+    transform: translateX(100%)
+    opacity: 0
+
+@media
+    (max-width
+        &:
+            991px)
+                .aside {
+min-width: 240px
+
+@keyframes
+    slideleft-in
+        0% {
+transform: translateX(-100%)
+        opacity: 0
+    slideright-in
+        0% {
+transform: translateX(100%)
+        opacity: 0
+
+.aside-backdrop
+    position: fixed
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    z-index: 1040
+    opacity: 0
+    transition: opacity .3s ease
+    background-color: #000
+    &.in
+        opacity: .5
+        filter: alpha(opacity=50)
+
+.aside-open
+    transition: transform 0.3s
+    &.has-push-right
+        transform: translateX(-300px)
+
+.slideleft-leave
+    animation: slideleft-out .3s
+
+}
+    @keyframes
+        slideright-out
+            0% {
+transform: translateX(0)
+            opacity: 1
+        slideleft-out
+            0% {
+transform: translateX(0)
+            opacity: 1
+    .aside
+        &:focus
+            outline: 0
+        &.left
+            right: auto
+            left: 0
+    .slideright-enter
+        animation: slideright-in .3s
+
+.slideright-leave
+    animation: slideright-out .3s
+

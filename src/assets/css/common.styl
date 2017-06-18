@@ -1,0 +1,191 @@
+@import 'variables.styl';
+@import '1px.styl';
+.fr
+    float right 
+.fl 
+    float left 
+    
+.clear
+    clear: both
+    &:after
+        content: ''
+        display: block
+        clear: both
+        
+.tac
+    text-align center
+
+.w100
+    width 100%
+
+.animated.flipOutX,
+.animated.flipOutY,
+.animated.bounceIn,
+.animated.bounceOut
+        -webkit-animation-duration: .75s
+        animation-duration: .75s
+
+.animated
+    -webkit-animation-duration: 1s
+    animation-duration: 1s
+    -webkit-animation-fill-mode: both
+    animation-fill-mode: both
+    &.hinge
+        -webkit-animation-duration: 2s
+        animation-duration: 2s
+    &.infinite
+        -webkit-animation-iteration-count: infinite
+        animation-iteration-count: infinite
+
+
+@keyframes bounceIn {
+    from, 20%, 40%, 60%, 80%, to {
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+
+    20% {
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+
+    40% {
+        transform: scale3d(.9, .9, .9);
+    }
+
+    60% {
+        opacity: 1;
+        transform: scale3d(1.03, 1.03, 1.03);
+    }
+
+    80% {
+        transform: scale3d(.97, .97, .97);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale3d(1, 1, 1);
+      }
+}
+
+.bounceIn {
+    animation-name: bounceIn;
+}    
+
+
+.zoomIn
+    -webkit-animation-name: zoomIn
+    animation-name: zoomIn
+    
+@keyframes fadeIn
+    from 
+        opacity: 0
+
+    to
+        opacity: 1
+
+
+.next-enter-active
+    position: absolute
+    z-index: 1001
+    -webkit-animation: pageFromRightToCenter .6s 
+    animation: pageFromRightToCenter .6s  
+
+.next-leave-active
+    position: absolute
+    z-index: 1000
+    -webkit-animation: pageFromCenterToLeft .6s  
+    animation: pageFromCenterToLeft .6s  
+
+.prev-enter-active
+    position: absolute
+    z-index: 1002
+    -webkit-animation: pageFromLeftToCenter .6s  
+    animation: pageFromLeftToCenter .6s  
+
+.prev-leave-active
+    position: absolute
+    z-index: 1001
+    -webkit-animation: pageFromCenterToRight .6s  
+    animation: pageFromCenterToRight .6s  
+
+// 从右到中 X轴上 100% --> 0   
+@keyframes pageFromRightToCenter
+    from
+        transform: translate3d(100%, 0, 0)
+        opacity: .5
+    to
+        transform: translate3d(0, 0, 0)
+        opacity: 1
+        
+@-webkit-keyframes  pageFromRightToCenter
+    from 
+        -webkit-transform: translate3d(100%, 0, 0)        
+        opacity: .5
+
+    to
+        -webkit-transform: translate3d(0, 0, 0)   
+        opacity: 1
+
+// 从中到右
+@keyframes pageFromCenterToRight
+    from
+        transform: translate3d(0, 0, 0)
+        opacity: 1
+    to
+        transform: translate3d(100%, 0, 0)
+        opacity: .5
+        
+@-webkit-keyframes  pageFromCenterToRight
+    from 
+        -webkit-transform: translate3d(0, 0, 0) 
+        opacity: 1
+
+    to
+        -webkit-transform: translate3d(100%, 0, 0)
+        opacity: .5
+
+
+// 从中到左
+@keyframes   pageFromCenterToLeft
+    from 
+        opacity: 1
+        transform: translate3d(0, 0, 0)
+
+    to
+        opacity: 0.5
+        transform: translate3d(-100%, 0, 0)
+
+@-webkit-keyframes   pageFromCenterToLeft
+    from 
+        opacity: 1
+        -webkit-transform: translate3d(0, 0, 0)
+
+    to
+        opacity: 0.5
+        -webkit-transform: translate3d(-100%, 0, 0)
+
+// 从左到中
+
+@keyframes    pageFromLeftToCenter
+    from 
+        opacity: .5
+        transform: translate3d(-100%, 0, 0)
+
+    to
+        opacity: 1
+        transform: translate3d(0, 0, 0)
+
+@-webkit-keyframes    pageFromLeftToCenter
+    from 
+        opacity: .5
+        -webkit-transform: translate3d(-100%, 0, 0)
+
+    to
+        opacity: 1
+        transform: translate3d(0, 0, 0)
+
+

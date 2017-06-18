@@ -1,0 +1,53 @@
+{
+    "channel" : [
+        {   
+            "avatar" : "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+            "name" : "新闻中心",
+            "classification" : 1,
+            "date" : "2017-02-12 23:09:00"
+        },
+        {   
+            "avatar" : "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+            "name" : "图片速递",
+            "classification" : 2,
+            "date" : "2017-02-12 23:09:00"
+        },
+        {   
+            "avatar" : "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+            "name" : "行业动态",
+            "classification" : 3,
+            "date" : "2017-02-12 23:09:00"
+        },
+        {   
+            "avatar" : "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+            "name" : "保密平台",
+            "classification" : 4,
+            "date" : "2017-02-12 23:09:00"
+        },
+        {   
+            "avatar" : "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+            "name" : "贸易风采",
+            "classification" : 5,
+            "date" : "2017-02-12 23:09:00"
+        },
+        {   
+            "avatar" : "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+            "name" : "通知公告",
+            "classification" : 6,
+            "date" : "2017-02-12 23:09:00"
+        },
+        {   
+            "avatar" : "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+            "name" : "综合服务",
+            "classification" : 7,
+            "date" : "2017-02-12 23:09:00"
+        },
+        {   
+            "avatar" : "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+            "name" : "人力专栏",
+            "classification" : 8,
+            "date" : "2017-02-12 23:09:00"
+        },
+        
+    ]  
+}

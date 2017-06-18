@@ -1,0 +1,160 @@
+{
+    "newsList" : [
+        {   
+            "id" : 1,
+            "avatar" : "http://img0.imgtn.bdimg.com/it/u=3647965459,1629578673&fm=21&gp=0.jpg",
+            "title" : "XX参加第39届国际标准化大会及相关活动国际标准化大会及相关活动",
+            "classification" : 4,
+            "date" : "2017-02-12 23:09:00",
+            "access" : 500,
+            "appreciate" : 200
+        },
+        {   
+            "id" : 2,
+            "avatar" : "http://cimg.163.com/2004/2004/11/7/20041107194340c3b27.jpg",
+            "title" : "华商储备商品管理中心圆满完成中央储备冻牛羊肉补库收储竞价交易",
+            "classification" : 1,
+            "date" : "2017-04-12 04:12:23",
+            "access" : 356,
+            "appreciate" : 23
+        },
+        {   
+            "id" : 3,
+            "avatar" : "http://sztqb.sznews.com/res/1/641/2016-12/29/B04/res01_attpic_brief.jpg",
+            "title" : "忘订饭无法让哥哥个皇太后",
+            "classification" : 3,
+            "date" : "2017-03-18 11:16:23",
+            "access" : 4400,
+            "appreciate" : 200
+        },
+        {   
+            "id" : 4,
+            "avatar" : "http://culture.people.com.cn/mediafile/201202/13/F201202131730429921312384.jpg",
+            "title" : "随便写一个标题来试试",
+            "classification" : 5,
+            "date" : "2017-01-12 05:16:43",
+            "access" : 567,
+            "appreciate" : 22
+        },
+        {   
+            "id" : 5,
+            "avatar" : "http://img0.imgtn.bdimg.com/it/u=3647965459,1629578673&fm=21&gp=0.jpg",
+            "title" : "送咖啡将孙菲菲奥拉夫将饿哦我感觉我更问过我",
+            "classification" : 6,
+            "date" : "2017-02-14 06:12:23",
+            "access" : 67652,
+            "appreciate" : 644
+        },
+        {   
+            "id" : 6,
+            "avatar" : "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+            "title" : "刚刚好任何一局i咯开奖号托管人反而发个贴与i戯",
+            "classification" : 12,
+            "date" : "2017-01-05 06:17:00",
+            "access" : 5674,
+            "appreciate" : 645
+        }
+    ],
+
+    "subscribe" : [
+        {
+            "id": 1,
+            "status": 0,                
+            "title": "新闻中心",
+            "abstract" : "公司内部新闻",
+            "cover": "http://img0.imgtn.bdimg.com/it/u=3647965459,1629578673&fm=21&gp=0.jpg"
+        },
+        {
+            "id": 2,
+            "status": 0,                
+            "title": "图片速递",
+            "abstract" : "公司内部新闻",
+            "cover": "http://cimg.163.com/2004/2004/11/7/20041107194340c3b27.jpg"
+        },
+        {
+            "id": 3,
+            "status": 0,                
+            "title": "行业动态",
+            "abstract" : "公司内部新闻",
+            "cover": "http://sztqb.sznews.com/res/1/641/2016-12/29/B04/res01_attpic_brief.jpg"
+        },
+        {
+            "id": 4,
+            "status": 0,                
+            "title": "保密平台",
+            "abstract" : "公司内部新闻",
+            "cover": "http://culture.people.com.cn/mediafile/201202/13/F201202131730429921312384.jpg"
+        },
+        {
+            "id": 5,
+            "status": 0,                
+            "title": "通知公告",
+            "abstract" : "公司内部新闻",
+            "cover": "http://culture.people.com.cn/mediafile/201202/13/F201202131730429921312384.jpg"
+        },
+        {
+            "id": 6,
+            "status": 0,                
+            "title": "贸易风采",
+            "abstract" : "公司内部新闻",
+            "cover": "http://img0.imgtn.bdimg.com/it/u=3647965459,1629578673&fm=21&gp=0.jpg"
+        }
+    ],  
+    "mine" : [
+        {
+            "id": 7,
+            "status": 0,                
+            "title": "我的收藏",
+            "abstract" : "公司内部新闻",
+            "cover": "http://culture.people.com.cn/mediafile/201202/13/F201202131730429921312384.jpg"
+        },
+        {
+            "id": 8,
+            "status": 0,                
+            "title": "我要上传",
+            "abstract" : "公司内部新闻",
+            "cover": "http://img0.imgtn.bdimg.com/it/u=3647965459,1629578673&fm=21&gp=0.jpg"
+        }
+    ],
+
+    "collectionList" : [
+        {
+            "id" : 1,
+            "avatar" : "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+            "title" : "XX集团参加第39届国际标准化大会及相关活动国际标准化大会及相关活动",
+            "classification" : 4,
+            "date" : "2017-02-12 23:09:00",
+            "access" : 500,
+            "appreciate" : 200
+            },
+            {
+            "id" : 2,
+            "avatar" : "http://img0.imgtn.bdimg.com/it/u=3647965459,1629578673&fm=21&gp=0.jpg",
+            "title" : "XX集团参加第39届国际标准化大会及相关活动国际标准化大会及相关活动",
+            "classification" : 4,
+            "date" : "2017-02-12 23:09:00",
+            "access" : 500,
+            "appreciate" : 200
+        },
+        {
+            "id" : 3,
+            "avatar" : "http://culture.people.com.cn/mediafile/201202/13/F201202131730429921312384.jpg",
+            "title" : "XX集团参加第39届国际标准化大会及相关活动国际标准化大会及相关活动",
+            "classification" : 4,
+            "date" : "2017-02-12 23:09:00",
+            "access" : 500,
+            "appreciate" : 200
+        }
+    ],
+
+    "news" : {
+        "title" : "XX集团参加第39届国际标准化大会及相关活动国际标准化大会及相关活动",
+        "content" : "<p style='color:red;font-size:20px;'>特朗普支持英国脱欧，并与英国强化贸易关系</p>美国单选总统特朗普明确表示其支持英国脱离欧盟的态度，称美国将与英国强化贸易关系，除单一货币市场之外（此指欧盟）英国有其他更好的贸易合作伙伴（此指美国），这让投资者更加肯定今晚英国首相的讲话会更偏向的口吻。特朗普的表态将促使特雷莎.梅有更充足的立场加快脱欧步伐，其将以此作为脱欧的支持论点提出欧盟需要英国比英国需要欧盟更大。<div style='color:blue;font-size:12px;font-weight:600;'>如果特朗普上任后兑现其表态，则美国可能在与欧盟签订自贸协议之前先与英国达成贸易协定，并且英国在脱离欧盟后会在对外对内政策更加灵活。但英镑在中长期内可能改变不了其下滑的趋势，一方面英国内部矛盾需要协调，另一方面英国如果想在国际贸易中占有优势，英镑则有贬值的需要技术图表中看英镑兑美元汇率潜在的进一步下行目标为1.12附近，但需要跌破10月2日低位1.1984，上方最近的阻力在1.21附近。今晚需要重点关注英国首相讲话与周末美国总统就职典礼英国央行表示货币政策保持中性，但警惕通胀率上行可能加速昨日英国央行行长马克.卡尼讲话中表示英国可将面临消费下滑风险，指出消费引导型增长向缓慢与难以持续的方向发展，原因是消费力将由于收入不足而减弱，</div>最终导致需求将受到雇佣与收入影响而变得更加敏感。此番讲话暗示通胀率可能加快提升而导致经济过热。卡尼重审了货币政策委员会保持中性货币政策的态度，指出央行对于通胀率超过2%的忍耐度将是有限的。其表态与上周美联储公布的12月份会议内容有相近的表态，即如果经济过热则央行可能加快升息。国际货币基金组织（IMF）认为美国经济将温和上行昨日国际货币基金组织（IMF）就特朗普本周正式就职以警觉性立场对于美国未来经济走势作出预估，认为美国将由于特朗普的刺激性财政政策而温和增长。对于全球经济在2017年增速的预估保持在3.4%，2018年为3.6%不变。",
+        "title" : "XX集团参加第39届国际标准化大会及相关活动国际标准化大会及相关活动",
+        "classification" : 1,
+        "date" : "2017-02-12 23:09:00",
+        "isCollection" : true,
+        "isAppreciate" : false
+    }    
+
+}
